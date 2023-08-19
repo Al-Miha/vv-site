@@ -120,3 +120,20 @@ header {
     opacity: 1;
   }
 }
+
+// MENU PAGE *****************
+.menu-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(../img-rest/menu-bg.webp) center center no-repeat;
+  background-size: cover;
+}
+
+.menu-items-text {
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+.menu-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  // opacity: 0.6;
+}
