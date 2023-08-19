@@ -46,6 +46,10 @@ header {
   left: 0;
 }
 
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Prata", serif;
+}
 .slide-item-1 {
   background: url("../img-rest/rest1.webp") no-repeat center center;
   background-size: cover;
@@ -90,6 +94,11 @@ header {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.slide-item-1 h3,
+.slide-item-2 h3,
+.slide-item-3 h3 {
+  font-size: 45px !important;
+}
 .event-text {
   z-index: 10;
   letter-spacing: 1.25px;
