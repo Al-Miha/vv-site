@@ -185,7 +185,33 @@ header {
   line-height: 28px;
 }
 
-// -------my try
+// -------HORIZONTAL LINE BETWEEN TEXT-------
+// .item-wrapper {
+//   display: flex;
+//   justify-content: space-between;
+// }
+// .item-name {
+//   font-size: 20px;
+//   line-height: 28px;
+// }
+// .item-line {
+//   height: 1px;
+//   width: 100%;
+//   border-bottom: 1px solid var(--bs-primary);
+//   flex: 1;
+//   margin: 0 10px;
+//   position: relative;
+//   bottom: -14px;
+//   opacity: 0.7;
+// }
+// .item-price {
+//   font-size: 20px;
+//   font-weight: 400;
+//   color: var(--bs-primary);
+//   line-height: 28px;
+// }
+// -------END HORIZONTAL LINE BETWEEN TEXT-------
+
 .item-wrapper {
   display: flex;
   justify-content: space-between;
@@ -205,7 +231,6 @@ header {
   opacity: 0.7;
 }
 .item-price {
-  // font-family: var(--title-fonts);
   font-size: 20px;
   font-weight: 400;
   color: var(--bs-primary);
