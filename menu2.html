@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>VV-clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="img-wrapper">
+        <img src="img-rest/menu-bg.webp" />
+      </div>
+      <div class="banner">
+        <h1>OUR MENU</h1>
+        <h1>Your Culinary oasis</h1>
+        <p class="lead mb-5">Dishes cooked to perfection</p>
+        <a href="#menu-scroll">Discover menu</a>
+      </div>
+      <nav class="navbar navbar-dark bg-dark nav-custom">
+        <div class="container">
+          <a class="navbar-brand text-primary" href="index.html">Fine Dining</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Dark offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- <header>
+      <nav class="navbar navbar-dark bg-dark nav-custom">
+        <div class="container">
+          <a class="navbar-brand text-primary" href="#">Fine Dining</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Dark offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+    <main id="menu-scroll" class="p-4 b text-white">
+      <div class="container">
+        <h2 class="text-uppercase text-center p-4 text-primary">antipasti</h2>
+
+        <!-- <div class="row">
+          <div class="col-md-6">
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Insalata Caprino e Pera</div>
+
+                <div class="item-line"></div>
+
+                <div class="item-price">$16</div>
+              </div>
+              <div class="menu-text text-secondary">
+                Goat cheese &amp; sliced pear served with mixed greens
+              </div>
+            </div>
+
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Insalata di Bocconcini</div>
+
+                <div class="item-line"></div>
+
+                <div class="item-price">$21</div>
+              </div>
+              <div class="menu-text text-secondary">
+                Bite-sized mozzarella, roasted peppers, sundried tomatoes,
+                soppressata, and spiedini alla romana over mixed green salad
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Antipasto alla Pescatore</div>
+
+                <div class="item-line"></div>
+
+                <div class="item-price">$20</div>
+              </div>
+              <div class="menu-text text-secondary">
+                An array of clams and mussels served in tomato sauce or white
+                wine and garlic
+              </div>
+            </div>
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Insalata Caprino e Pera</div>
+
+                <div class="item-line"></div>
+
+                <div class="item-price">$16</div>
+              </div>
+              <div class="menu-text text-secondary">
+                Goat cheese &amp; sliced pear served with mixed greens
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Insalata Caprino e Pera</div>
+
+                <div class="item-line d-none d-md-block"></div>
+
+                <div class="item-price">$16</div>
+              </div>
+              <div class="menu-text text-secondary">
+                Goat cheese &amp; sliced pear served with mixed greens
+              </div>
+            </div>
+
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Insalata di Bocconcini</div>
+
+                <div class="item-line d-none d-md-block"></div>
+
+                <div class="item-price">$21</div>
+              </div>
+              <div class="menu-text text-secondary">
+                Bite-sized mozzarella, roasted peppers, sundried tomatoes,
+                soppressata, and spiedini alla romana over mixed green salad
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Antipasto alla Pescatore</div>
+
+                <div class="item-line d-none d-md-block"></div>
+
+                <div class="item-price">$20</div>
+              </div>
+              <div class="menu-text text-secondary">
+                An array of clams and mussels served in tomato sauce or white
+                wine and garlic
+              </div>
+            </div>
+            <div class="item mb-4">
+              <div class="item-wrapper">
+                <div class="item-name">Insalata Caprino e Pera</div>
+
+                <div class="item-line d-none d-md-block"></div>
+
+                <div class="item-price">$16</div>
+              </div>
+              <div class="menu-text text-secondary">
+                Goat cheese &amp; sliced pear served with mixed greens
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="color-tester1"></div>
+      <div class="color-tester2"></div>
+
+      <br />
+      <br />
+      <br />
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
